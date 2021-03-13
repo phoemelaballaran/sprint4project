@@ -4,6 +4,8 @@ import numpy as np
 import random
 import pickle
 import spacy
+import nltk
+nltk.download('stopwords') 
 from gensim.matutils import jensen_shannon
 from gensim.models import LdaModel
 import pyLDAvis.gensim
