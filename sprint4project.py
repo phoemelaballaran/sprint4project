@@ -16,7 +16,6 @@ from sklearn.feature_extraction import text
 from sklearn.model_selection import train_test_split
 from sklearn.metrics.pairwise import cosine_similarity 
 from sklearn.metrics import pairwise_distances
-import base64
 import os, re, operator, warnings
 warnings.filterwarnings('ignore')
 
