@@ -4,9 +4,9 @@ import numpy as np
 import random
 import pickle
 import spacy
-import nltk
 nltk.download('stopwords') 
 nltk.download('corpus') 
+import nltk
 from gensim.matutils import jensen_shannon
 from gensim.models import LdaModel
 import pyLDAvis.gensim
