@@ -1,2 +1,2 @@
-web: sh setup.sh && streamlit run sprint2project.py
+web: sh setup.sh && streamlit run sprint4project.py
 worker: YOUR_COMMAND
